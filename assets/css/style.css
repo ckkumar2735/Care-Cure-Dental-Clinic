@@ -55,7 +55,7 @@ body{
 }
 
 .dental-navbar .nav-logo img{
-	width: 200px;
+	width: 350px;
 }
 
 .dental-navbar .nav-box .call-box {
@@ -105,7 +105,7 @@ body{
 .dental-hero p{
     color:#D32920;
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 30px;
     text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
