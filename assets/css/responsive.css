@@ -1,78 +1,293 @@
-/* For screens smaller than 768px (mobile devices) */
-@media (max-width: 767px) {
-    .dental-hero h1 {
-      font-size: 24px;
-      padding-left: 20px;
+/* Media Query (mobile) */
+@media only screen and (max-width: 767px) {
+
+    .dental {
+        padding: 1rem 0rem;
     }
-  
-    .dental-hero h4 {
-      font-size: 20px;
-      line-height: 28px;
-      margin: 10px 20px;
+    .dental-navbar .nav-box .call-box {
+        padding-bottom: 1rem;
     }
-  
+   
+    .dental-button .btn-dental {
+        padding: 20px 30px;
+        font-size: 21px;
+    }
+    .dental-button p {
+        font-size: 15px !important;
+        text-align: center;
+    }
+    .dental-hero-bg {
+        padding-top: 15px;
+    }
     .dental-navbar .nav-logo img {
-      width: 150px;
+        position:absolute;
+        width: 200px;
+        top:-20px;
+        left:-10px;
     }
-  
     .dental-navbar .nav-box .call-box p {
-      font-size: 20px;
+        font-size: 12px;
     }
-  
     .dental-navbar .nav-box .call-box a {
-      font-size: 28px;
+        font-size: 18px;
     }
-  }
-  
-  /* For screens between 768px and 1024px (tablet devices) */
-  @media (min-width: 768px) and (max-width: 1024px) {
+    .dental-navbar .nav-box .call-box .call-icon i{
+        /* font-size:12px;
+        padding: 4px 15px 7px 08px; */
+        display:none;
+       
+    }
+    .dental-navbar .nav-box {
+        padding: 0.5rem 1rem;
+    }
+   
+   
+    
+    
     .dental-hero h1 {
-      font-size: 30px;
-      padding-left: 50px;
+        font-size: 24px;
+    line-height: 38px;
+    font-weight: 600;
+        /* line-height: 70px; */
     }
-  
     .dental-hero h4 {
-      font-size: 24px;
-      line-height: 32px;
-      margin: 10px 50px;
+        font-size: 20px;
+        /* line-height: 40px; */
     }
-  
-    .dental-navbar .nav-logo img {
-      width: 200px;
+   
+   
+    
+    .dental-navbar .nav-box {
+        padding: 0.5rem 1rem;
     }
-  
-    .dental-navbar .nav-box .call-box p {
-      font-size: 24px;
+    .dental-hero p {
+        font-weight: 600;
+        font-size: 20px;
     }
-  
-    .dental-navbar .nav-box .call-box a {
-      font-size: 32px;
+    .achieve {
+        margin: 0rem;
     }
-  }
-  
-  /* For screens larger than 1024px (desktop devices) */
-  @media (min-width: 1025px) {
-    .dental-hero h1 {
-      font-size: 35px;
-      padding-left: 68px;
+    .achieve .border {
+        border: none !important;
     }
-  
-    .dental-hero h4 {
-      font-size: 28px;
-      line-height: 35px;
-      margin: 15px 30px;
+
+    .discover .discover-images .main-img img{
+    
+    
+        width: 40px;
+        margin-left:270px;
+        
     }
-  
-    .dental-navbar .nav-logo img {
-      width: 250px;
+    .discover .discover-images .abs-img1 img{
+        width: 300px;
+        margin-left:1px;
+        margin-bottom: 1rem;
     }
-  
-    .dental-navbar .nav-box .call-box p {
-      font-size: 25px;
+    .discover .discover-images .abs-img1 {
+        right: -10%;
+        bottom: 5%;
     }
-  
-    .dental-navbar .nav-box .call-box a {
-      font-size: 35px;
+    .transform h2 {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        /* line-height: 3rem; */
+        color: #29166F;
     }
-  }
-  
+    .transform {
+        padding: 5rem 0rem 3rem;
+    }
+    .transform p {
+        font-size: 24px;
+    }
+    .transform h2 {
+        font-size: 24px;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+    }
+    .transform h1{
+        
+         font-size: 18px;
+         font-weight: 400;
+         
+         text-transform: capitalize;
+         text-align: left;
+         color: #000000;
+         margin-top:-80px;
+         
+     }
+    
+    .discover {
+        /* padding: 6rem 0rem;
+        color: #fff;
+        text-align: center; */
+        padding: 3rem 0rem;
+    }
+    .discover h2 {
+        font-size: 28px;
+        margin-bottom: 50px;
+        line-height: 35px;
+    }
+    .discover p{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .discover p b{
+        font-size: 22px;
+    }
+    /* .discover2-bg {
+        padding: 0rem 0rem 6rem;
+    } */
+    .discover2 {
+        padding: 2rem 1rem;
+        margin: 1rem 0rem 0rem;
+    }
+    .discover2 h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+        line-height: 35px;
+    }
+    .discover2 p b{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .discover2 p {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .restore {
+        padding: 5rem 0rem 2rem;
+    }
+    .restore h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .new-teeth h1 {
+        /* font-size: 40px;
+        margin-bottom: 2rem; */
+        font-size: 28px;
+        margin-bottom: 50px;
+        line-height: 35px;
+    }
+    .new-teeth p {
+        font-size: 19px;
+        line-height: 25px;
+    }
+   
+    
+    
+    /* .discover2 p b img{
+        width:10px;
+    } */
+
+    .our-doctor {
+        padding: 5rem 0rem 3rem;
+    }
+    .our-doctor p {
+        font-size: 18px;
+       margin-top:-50px;
+    }
+    .our-doctor h2 {
+        font-size: 30px;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+    }
+    .about .about-slide .owl-theme .owl-nav, .happy-customer .customer-slide .owl-theme .owl-nav {
+        display: none;
+    }
+    .about .about-slide .owl-theme .owl-dots, .owl-theme .owl-nav {
+        display: none;
+    }
+    .client-review h2 {
+        font-size: 28px;
+        margin-bottom: 0.5rem;
+        line-height: 40px;
+    }
+    .client-review .client-slide {
+        padding: 1rem 0rem 1rem;
+    }
+    .client-review {
+        padding: 3.5rem 0rem 1rem;
+    }
+    .misaligned-tooth h2 {
+        font-size: 27px;
+        margin-bottom: 0rem;
+        line-height: 38px;
+    }
+    .misaligned-tooth .gap {
+        padding: 0rem;
+    }
+    .misaligned-tooth .tooth-box .name-box {
+        min-width: 275px;
+    }
+    .misaligned-tooth .tooth-box .name-box.upper {
+        bottom: -35px;
+        top: unset;
+    }
+    /* .guarantee h6 {
+        font-size: 22px;
+    } */
+    .guarantee .guarantee-image img {
+        width: 250px;
+    }
+    .guarantee .guarantee-image {
+        padding: 1rem 0rem;
+    }
+    .guarante-bg {
+        padding: 2rem 0rem 3rem;
+    }
+    .guarantee h6 {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 1rem;
+    }
+    .for-month img {
+        width: unset;
+    }
+    .for-month h3 {
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 1rem;
+    }
+    .for-month {
+        padding: 3rem 0rem 2rem;
+    }
+    .for-month h5 {
+        margin: 2rem 0rem;
+    }
+    .dental-form-bg {
+        padding: 2rem 0rem;
+    }
+    .dental-form .dental-form-control input {
+        padding: 10px 15px;
+    }
+    .dental-form .dental-form-control select {
+        padding: 10px 15px;
+    }
+    .dental-form .dental-form-control .input-group>.form-select {
+        width: 25%;
+    }
+    .dental-form .dental-form-control .input-group>.form-control, .input-group>.form-floating {
+        width: 75%;
+    }
+    .perk .perk-box {
+        border-bottom: 1px solid #d3d3d3;
+    }
+    .contact-us .contact-pad{
+        padding: 1rem 0rem 0rem;
+    }
+    .satisfaction .span1{
+        display: none;
+    }
+    .satisfaction .span2{
+        display:none; 
+    }
+    .satisfaction {
+        padding: 1rem 0rem;
+    }
+    .satisfaction img{
+        box-shadow: 0px 0px 26px 2px rgb(0 0 0 / 25%);
+        border-radius: 50%;
+    }
+}
+
