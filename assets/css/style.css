@@ -256,7 +256,7 @@ body{
         padding: 5rem 0rem;
         text-align: center;
     }
-    /* .transform h2{
+    .transform h2{
        
         font-size: 48px;
         font-weight: 600;
@@ -264,7 +264,7 @@ body{
         line-height: 50px;
         color: #29166F;
         text-align: left;
-    } */
+    }
     /* .transform h1{
        position:absolute;
         font-size: 17px;
@@ -346,9 +346,9 @@ padding-left:-30px;
     margin-left: auto;
     margin-right: auto;
 }
-/* .discover2 p{
+.discover2 p{
     
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 500;
   
     margin-bottom: 30px;
@@ -356,11 +356,11 @@ padding-left:-30px;
     text-align:left;
     color: #FFFFFF;
     padding-left:100px;
-} */
+}
 .discover2 p b{
    
     line-height:50px;
-	font-size: 20px;
+	font-size: 36px;
     font-weight: 500;
     text-align:left;
     color: #FFFFFF;
