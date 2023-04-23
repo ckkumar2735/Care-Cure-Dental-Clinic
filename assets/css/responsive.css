@@ -18,7 +18,7 @@
     }
     .dental-hero-bg {
         padding-top: 15px;
-        opacity:.5;
+        
     }
     .dental-navbar .nav-logo img {
         position:absolute;
@@ -47,9 +47,9 @@
     
     .dental-hero h1 {
         font-size: 22px;
-        font-style:bold;
+        font-style: bold;
     line-height: 38px;
-    font-weight: 700;
+    font-weight: 800;
         /* line-height: 70px; */
     }
     .dental-hero h4 {
