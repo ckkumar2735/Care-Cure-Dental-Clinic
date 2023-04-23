@@ -111,10 +111,10 @@
          font-weight: 400;
          
         
-         text-align: center;
+         text-align: left;
          
          margin-top:-80px;
-         
+         margin-left:10px;
      }
     
     .discover {
