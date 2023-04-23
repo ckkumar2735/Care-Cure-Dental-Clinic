@@ -186,7 +186,8 @@
     .our-doctor p {
         font-size: 18px;
        margin-top:-50px;
-        text-align:left
+        text-align:left;
+           margin-left:-20px;
     }
     .our-doctor h2 {
         font-size: 30px;
