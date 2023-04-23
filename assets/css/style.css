@@ -268,6 +268,7 @@ body{
     }
     .transform h1{
        /* position:absolute; */
+        /* font-size: 17px; */
         font-size: 24px;
         font-weight: 400;
         /* line-height: 35px; */
@@ -279,9 +280,9 @@ body{
         
     }
     .transform img{
-        width: 320px;
+        width: 280px;
         margin-bottom: 7rem;
-        margin-top:-5px;
+        margin-top:25px;
     }
  
     /* New Teeth */
@@ -324,18 +325,18 @@ padding-left:-30px;
     padding: 0rem 0rem 10rem; 
 }
 .discover2{
-	padding: 5rem 0rem 2rem;
-    margin: 10rem 4rem 0rem;
+	padding: 50px;
+    margin: 10px;
     color: #fff;
-    text-align: center;
-    background: #362478;
+    /* text-align: center; */
+    background: rgba(54, 36, 120, 0.81);
  
 }
 .discover2 h2{
     font-size: 35px;
     font-weight: 600;
-    margin-bottom: 45px;
-    line-height: 45px;
+    line-height: 54px;
+    
 }
 .discover2 h2 span{
 	display: block;
@@ -346,11 +347,11 @@ padding-left:-30px;
     margin-left: auto;
     margin-right: auto;
 }
-.discover2 p{
+/* .discover2 p{
     
     font-size: 20px;
     font-weight: 500;
-    /* text-transform: capitalize; */
+  
     margin-bottom: 30px;
     line-height:80px;
     text-align:left;
@@ -364,7 +365,7 @@ padding-left:-30px;
     font-weight: 500;
     text-align:left;
     color: #FFFFFF;
-}
+} */
 
 /* ****************************************************************** */
 /* Client review */
@@ -822,6 +823,23 @@ Surgery  {
   }<gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></gwmw><gwmw style="display:none;"></gwmw></gwmw></gwmw><gwmw style="display:none;"></gwmw></gwmw></gwmw></gwmw><gwmw style="display:none;">
     
 
+
+.text40{
+    font-size:40px;
+    font-weight:600;
+    color:#FFFFFF;
+}
+.text32{
+    font-size:18px;
+    font-weight:400;
+}
+.discover_4{
+    background: rgba(41, 22, 111, 0.53)
+}
+/* .new1-teeth_img{
+    position:relative;
+    height:40px;
+} */
 
 
 
