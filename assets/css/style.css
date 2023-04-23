@@ -279,9 +279,9 @@ body{
         
     }
     .transform img{
-        width: 280px;
+        width: 320px;
         margin-bottom: 7rem;
-        margin-top:10px;
+        margin-top:-5px;
     }
  
     /* New Teeth */
