@@ -148,13 +148,14 @@
         line-height: 35px;
     }
     .discover2 p b{
-        font-size: 22px;
+        font-size: 18px;
         margin-bottom: 10px;
+        margin-left:-20px;
     }
-    .discover2 p {
+/*     .discover2 p {
         font-size: 19px;
         margin-bottom: 10px;
-    }
+    } */
     .restore {
         padding: 5rem 0rem 2rem;
     }
@@ -180,21 +181,17 @@
         width:10px;
     } */
 
-    .our-doctor {
+      .our-doctor {
         padding: 5rem 0rem 3rem;
     }
     .our-doctor p {
-        position:absolute;
-        font-size: 10px;
+        font-size: 18px;
        margin-top:-50px;
-        text-align:left;
-           margin-left:-70px;
     }
     .our-doctor h2 {
         font-size: 30px;
         margin-bottom: 2rem;
         line-height: 2rem;
-        text-align:left
     }
     .about .about-slide .owl-theme .owl-nav, .happy-customer .customer-slide .owl-theme .owl-nav {
         display: none;
