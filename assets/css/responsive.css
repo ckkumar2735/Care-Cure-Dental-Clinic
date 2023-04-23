@@ -186,11 +186,13 @@
     .our-doctor p {
         font-size: 18px;
        margin-top:-50px;
+        text-align:left
     }
     .our-doctor h2 {
         font-size: 30px;
         margin-bottom: 2rem;
         line-height: 2rem;
+        text-align:left
     }
     .about .about-slide .owl-theme .owl-nav, .happy-customer .customer-slide .owl-theme .owl-nav {
         display: none;
