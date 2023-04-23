@@ -18,7 +18,6 @@
     }
     .dental-hero-bg {
         padding-top: 15px;
-        
     }
     .dental-navbar .nav-logo img {
         position:absolute;
@@ -46,8 +45,7 @@
     
     
     .dental-hero h1 {
-        font-size: 25px;
-        font-style: bold;
+        font-size: 35px;
     line-height: 38px;
     font-weight: 800;
         /* line-height: 70px; */
@@ -112,11 +110,11 @@
          font-size: 18px;
          font-weight: 400;
          
-        
+         text-transform: capitalize;
          text-align: left;
-         
+         color: #000000;
          margin-top:-80px;
-         margin-left:10px;
+         
      }
     
     .discover {
@@ -140,7 +138,7 @@
     /* .discover2-bg {
         padding: 0rem 0rem 6rem;
     } */
-    .discover2 {
+    /* .discover2 {
         padding: 2rem 1rem;
         margin: 1rem 0rem 0rem;
     }
@@ -148,13 +146,13 @@
         font-size: 28px;
         margin-bottom: 15px;
         line-height: 35px;
+        
     }
     .discover2 p b{
         font-size: 22px;
         margin-bottom: 10px;
-        margin-left:-10px;
     }
-/*     .discover2 p {
+    .discover2 p {
         font-size: 19px;
         margin-bottom: 10px;
     } */
@@ -183,7 +181,7 @@
         width:10px;
     } */
 
-      .our-doctor {
+    .our-doctor {
         padding: 5rem 0rem 3rem;
     }
     .our-doctor p {
