@@ -71,7 +71,7 @@
         border: none !important;
     }
 
-    .discover .discover-images .main-img img{
+    /* .discover .discover-images .main-img img{
     
     
         width: 40px;
@@ -86,10 +86,11 @@
     .discover .discover-images .abs-img1 {
         right: -10%;
         bottom: 5%;
-    }
+    } */
     .transform h2 {
         font-size: 36px;
-        font-weight: 600;
+        text-align:left;
+        
         margin-bottom: 2rem;
         /* line-height: 3rem; */
         color: #29166F;
@@ -97,25 +98,15 @@
     .transform {
         padding: 5rem 0rem 3rem;
     }
-    .transform p {
+    /* .transform p {
         font-size: 24px;
-    }
-    .transform h2 {
+    } */
+    /* .transform h2 {
         font-size: 24px;
         margin-bottom: 2rem;
         line-height: 2rem;
-    }
-    .transform h1{
-        
-         font-size: 18px;
-         font-weight: 400;
-         
-         text-transform: capitalize;
-         text-align: left;
-         color: #000000;
-         margin-top:-80px;
-         
-     }
+    } */
+    
     
     .discover {
         /* padding: 6rem 0rem;
@@ -123,18 +114,18 @@
         text-align: center; */
         padding: 3rem 0rem;
     }
-    .discover h2 {
+    /* .discover h2 {
         font-size: 28px;
         margin-bottom: 50px;
         line-height: 35px;
-    }
-    .discover p{
+    } */
+    /* .discover p{
         font-size: 22px;
         margin-bottom: 10px;
-    }
-    .discover p b{
+    } */
+    /* .discover p b{
         font-size: 22px;
-    }
+    } */
     /* .discover2-bg {
         padding: 0rem 0rem 6rem;
     } */
