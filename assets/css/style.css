@@ -256,7 +256,7 @@ body{
         padding: 5rem 0rem;
         text-align: center;
     }
-    .transform h2{
+    /* .transform h2{
        
         font-size: 48px;
         font-weight: 600;
@@ -264,7 +264,7 @@ body{
         line-height: 50px;
         color: #29166F;
         text-align: left;
-    }
+    } */
     /* .transform h1{
        position:absolute;
         font-size: 17px;
@@ -851,7 +851,9 @@ Surgery  {
     Font size: 32px;
     color:#000000;
     font-weight:400;
-    text-align:left;
+    /* text-align:left; */
+   align:left;
+Vertical-align:center;
 }
 .text50{
     Font size: 50px;
@@ -860,6 +862,13 @@ Surgery  {
 Align: Left;
 Vertical align: Center;
 color:#29166F;
+}
+
+.text40{
+    Font size: 40px;
+    color:#000000;
+    font-weight:400;
+    
 }
 
 
