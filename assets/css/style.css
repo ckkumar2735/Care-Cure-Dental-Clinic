@@ -202,16 +202,16 @@ body{
     align-content: center;
     justify-content: center;
 }
-.discover h2{
+/* .discover h2{
     font-size: 38px;
     font-weight: 600;
     margin-bottom: 2rem;
     line-height: 3.5rem;
     color:#29166F;;
     text-align: center;
-}
+} */
 
-.discover .discover-images{
+/* .discover .discover-images{
 	position: relative;
 }
 .discover .discover-images .main-img img{
@@ -223,13 +223,13 @@ body{
     p
     
 
-}
+} */
 /* .discover .discover-images .abs-img1{
 	width: 800px;
     margin-left:45px;
     margin-bottom: 1rem;
 } */
-.discover .discover-images .abs-img1 img{
+/* .discover .discover-images .abs-img1 img{
     position: relative;
 	width: 800px;
     margin-left:45px;
@@ -237,7 +237,7 @@ body{
     padding-margin:-25px;
     top:-50px;
    
-}
+} */
 
 
 
@@ -257,8 +257,7 @@ body{
         text-align: center;
     }
     .transform h2{
-        font-family:'poppins';
-        font-style: normal;
+       
         font-size: 48px;
         font-weight: 600;
         margin-bottom: 3rem;
@@ -266,24 +265,24 @@ body{
         color: #29166F;
         text-align: left;
     }
-    .transform h1{
-       /* position:absolute; */
-        /* font-size: 17px; */
+    /* .transform h1{
+       position:absolute;
+        font-size: 17px;
         font-size: 24px;
         font-weight: 400;
-        /* line-height: 35px; */
-        /* text-transform: capitalize; */
+        line-height: 35px;
+        text-transform: capitalize;
         text-align: left;
         color: #000000;
         margin-left:-50px;
-        /* margin-top:-155px; */
+        margin-top:-155px;
         
-    }
-    .transform img{
+    } */
+    /* .transform img{
         width: 280px;
         margin-bottom: 7rem;
         margin-top:25px;
-    }
+    } */
  
     /* New Teeth */
 /* ******************************************************** */
@@ -297,13 +296,13 @@ body{
     /* line-height: 50px; */
     color: #29166F;
 }
-.new-teeth p{
+/* .new-teeth p{
     font-size: 25px;
     font-weight: 400;
     line-height: 40px;
     color: #555657;
     text-transform: capitalize;
-}
+} */
 /* .new-teeth .teeth_1{
     height:450px;
     margin-top:-450px ;
@@ -333,9 +332,9 @@ padding-left:-30px;
  
 }
 .discover2 h2{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
-    line-height: 54px;
+    
     
 }
 .discover2 h2 span{
@@ -357,15 +356,15 @@ padding-left:-30px;
     text-align:left;
     color: #FFFFFF;
     padding-left:100px;
-}
+} */
 .discover2 p b{
    
-    line-height:80px;
+    line-height:50px;
 	font-size: 20px;
     font-weight: 500;
     text-align:left;
     color: #FFFFFF;
-} */
+}
 
 /* ****************************************************************** */
 /* Client review */
@@ -841,7 +840,27 @@ Surgery  {
     height:40px;
 } */
 
+.text36{
+    Font size: 36px;
+    color:#555657;
+    text-align:left;
+    font-weight:400;
+}
 
+.text32{
+    Font size: 32px;
+    color:#000000;
+    font-weight:400;
+    text-align:left;
+}
+.text50{
+    Font size: 50px;
+    font-weight:600;
+
+Align: Left;
+Vertical align: Center;
+color:#29166F;
+}
 
 
 
