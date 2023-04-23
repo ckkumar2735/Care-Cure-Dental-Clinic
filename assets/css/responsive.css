@@ -18,6 +18,7 @@
     }
     .dental-hero-bg {
         padding-top: 15px;
+        opacity:.5;
     }
     .dental-navbar .nav-logo img {
         position:absolute;
