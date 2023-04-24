@@ -138,7 +138,7 @@ body{
 }
 
 .achieve{
-	background-color: grey  ;
+	background: rgba(0, 0, 0, 0.26);
     border-radius: 05px;
     padding: 2rem 0rem;
     margin: 0rem;
