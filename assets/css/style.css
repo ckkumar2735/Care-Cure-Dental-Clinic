@@ -44,6 +44,7 @@ body{
     background-size: cover;
     position: relative;   
     padding-top: 2rem;
+    
 }
 
 .dental-navbar{
@@ -114,19 +115,19 @@ body{
     color:#29166F;
 	text-transform: capitalize;
 	font-weight: 700;
-	font-size: 55px;
-	line-height: 75px;
+	font-size: 38px;
+	/* line-height: 75px; */
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.dental-hero h4{
+/* .dental-hero h4{
 	font-weight: 500;
     font-size: 28px;
-    line-height: 35px;
+ 
     text-transform: capitalize;
     margin: 15px 0px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+} */
 /* Dental Hero Section End */
 /* ****************************************************************** */
 /* Achieve Section */
@@ -138,7 +139,8 @@ body{
 }
 
 .achieve{
-	background: rgba(0, 0, 0, 0.26);
+	/* background-color: grey  ; */
+    background: rgba(0, 0, 0, 0.26);
     border-radius: 05px;
     padding: 2rem 0rem;
     margin: 0rem;
@@ -172,7 +174,7 @@ body{
     align-items: center;
 }
 .achieve .abox .vector img{
-	width: 60%;
+	width: 80%;
     /* mix-blend-mode:grey; */
 }
 .achieve .abox .vector p{
@@ -324,19 +326,18 @@ padding-left:-30px;
     padding: 0rem 0rem 10rem; 
 }
 .discover2{
-	padding: 50px;
+	padding: 20px;
     margin: 10px;
     color: #fff;
     /* text-align: center; */
     background: rgba(54, 36, 120, 0.81);
  
 }
-.discover2 h2{
-    font-size: 30px;
-    font-weight: 600;
-    
-    
+.discover2 .txt71 {
+    font-size: 40px;
+    font-weight: 600;   
 }
+
 .discover2 h2 span{
 	display: block;
     width: 20%;
@@ -346,25 +347,25 @@ padding-left:-30px;
     margin-left: auto;
     margin-right: auto;
 }
-.discover2 p{
+/* .discover2 p{
     
-    font-size: 36px;
+    font-size: 35px;
     font-weight: 500;
   
     margin-bottom: 30px;
     line-height:80px;
-    text-align:left;
+    text-align:start;
     color: #FFFFFF;
     padding-left:100px;
 }
 .discover2 p b{
    
-    line-height:50px;
-	font-size: 36px;
+   
+	font-size: 35px;
     font-weight: 500;
-    text-align:left;
+    text-align:start;
     color: #FFFFFF;
-}
+} */
 
 /* ****************************************************************** */
 /* Client review */
@@ -518,12 +519,26 @@ Surgery  {
     font-weight: 500;
     margin: 0;
 }
-.g-review .g-box .star{
+/* .g-review .g-box .star{
     margin-bottom: 15px;
 }
 .g-review .g-box .star i{
     color: #FFD700;    
+} */
+
+.slider-card .star{
+    margin-bottom: 10px;
 }
+.slider-card .star i{
+    color: #FFD700;    
+}
+/* .slider-card a{
+    font-size: 10px;
+}
+.slider-card a img{
+    width: 30px;
+    margin-top: 8px;
+} */
 
 .g-review .g-box p{
     font-size: 15px;
@@ -768,6 +783,7 @@ Surgery  {
   .slider {
     margin-bottom: 30px;
     position: relative;
+    padding-bottom: 5px;
   }
   .slider .owl-item.active.center .slider-card {
     transform: scale(1.15);
@@ -776,6 +792,7 @@ Surgery  {
     color: #black;
   }
   .slider-card {
+    padding-bottom:10px;
     background: #fff;
     padding: 0px 0px;
     margin: 50px 15px 90px 15px;
@@ -818,8 +835,10 @@ Surgery  {
     outline: none;
   }
   .owl-dots .owl-dot.active {
+
+ 
     background: #f44336 !important;
-  }<gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></gwmw><gwmw style="display:none;"></gwmw></gwmw></gwmw><gwmw style="display:none;"></gwmw></gwmw></gwmw></gwmw><gwmw style="display:none;">
+  }<gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none; "><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></gwmw><gwmw style="display:none;"></gwmw></gwmw></gwmw><gwmw style="display:none;"></gwmw></gwmw></gwmw></gwmw><gwmw style="display:none;">
     
 
 
@@ -827,6 +846,7 @@ Surgery  {
     font-size:40px;
     font-weight:600;
     color:#FFFFFF;
+    
 }
 .text32{
     font-size:18px;
@@ -870,6 +890,64 @@ color:#29166F;
     font-weight:400;
     
 }
+
+.txt40{
+    font-size:40px;
+    font-weight: 600;
+    color:#D32920;
+    effect:drop shadow;
+    radius:4px;
+    offset:0px, 4px rgba(255, 255, 255, 0.25);
+}
+.txt55{
+    font-size:50px;
+    font-weight: 700;
+    color:#29166F;
+    /* border: 3px solid #FFFFFF; */
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+    -webkit-text-stroke: .5px #FFFFFF;
+}
+
+
+.discover2 .dental-button  .btn11{
+    font-size: 32px;
+    font-weight:400px;
+}
+
+.dental-button .btn12{
+font-weight: 400;
+font-size: 32px;
+} 
+
+.discover2 .txt70{
+   
+    text-align:start;
+    align-items:start;
+    justify-content:start;
+    font-size: 25px;
+    
+
+}
+
+.btn70{
+    font-size:20px;
+}
+
+.btn20{
+    font-size:20px;
+}
+  .transform  .btn13{
+    font-weight: 500;
+font-size: 28px;
+}
+.new-teeth .btn14{
+    font-size: 28px;
+}
+.client-review .btn15{
+    font-size: 28px;
+    
+}
+
 
 
 
